@@ -36,15 +36,11 @@ function Home(){
      
 
     const data = {
-        labels: [
-           students.Name
-        ],
+        labels: ['Anne','James','Andrew','Frank'],,
         datasets: [
           {
             label: 'Student Marks',
-            data: [ 
-                students.Mark
-                ],
+            data: [83, 100,70,90],
             backgroundColor: [
               'rgba(255, 99, 132, 0.2)',
               'rgba(54, 162, 235, 0.2)',
